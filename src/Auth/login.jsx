@@ -52,6 +52,9 @@ export default function SignIn({username, setUsername}) {
                     <Typography component="h1" variant="h5">
                         Sign in
                     </Typography>
+                    <Typography>
+                        You can choose any name!
+                    </Typography>
                     <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
                         <TextField
                             margin="normal"
